@@ -9,7 +9,7 @@
 |^ /? /\ \/ [- [- |\|   (_, /\ |\| |) |-| |   |^
 ```
 
-![project][project.png]
+![project][https://github.com/PraveenGandhi/spring-workshop/raw/master/project.png]
 
 ## Old school Spring applications
 -[x] XML configuration
