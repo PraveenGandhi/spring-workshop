@@ -17,11 +17,11 @@
 ![project](project.png)
 
 ## Old school Spring applications
--[x] XML configuration
+- [x] XML configuration
   1. Hello Spring
   2. Spring JDBC
   3. Spring MVC
--[x] Java Configurtion
+- [x] Java Configurtion
   1. Hello Spring
   2. Spring JDBC
   3. Spring MVC
