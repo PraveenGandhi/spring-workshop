@@ -49,9 +49,9 @@ gradlew :spring-boot:01-hello-spring-boot:bootRun
 
 # Next steps (live):
 
--[x] [Building ReST application](https://spring.io/guides/gs/rest-service/)
--[x] [Spring Projects overview](https://spring.io/projects)
--[x] [Spring Data ReST](https://spring.io/projects/spring-data-rest)
--[x] [Spring Data JDBC](https://spring.io/projects/spring-data-jdbc) Live Project code walk through
--[x] Legacy Spring application sample
+- [Building ReST application](https://spring.io/guides/gs/rest-service/)
+- [Spring Projects overview](https://spring.io/projects)
+- [Spring Data ReST](https://spring.io/projects/spring-data-rest)
+- [Spring Data JDBC](https://spring.io/projects/spring-data-jdbc) Live Project code walk through
+- Legacy Spring application sample
 
