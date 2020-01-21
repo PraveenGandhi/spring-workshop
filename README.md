@@ -9,7 +9,7 @@
 |^ /? /\ \/ [- [- |\|   (_, /\ |\| |) |-| |   |^
 ```
 
-![project][https://github.com/PraveenGandhi/spring-workshop/raw/master/project.png]
+![project](project.png)
 
 ## Old school Spring applications
 -[x] XML configuration
@@ -48,6 +48,7 @@ gradlew :spring-boot:01-hello-spring-boot:bootRun
 ```
 
 # Next steps (live):
+
 -[x] [Building ReST application](https://spring.io/guides/gs/rest-service/)
 -[x] [Spring Projects overview](https://spring.io/projects)
 -[x] [Spring Data ReST](https://spring.io/projects/spring-data-rest)
