@@ -9,6 +9,11 @@
 |^ /? /\ \/ [- [- |\|   (_, /\ |\| |) |-| |   |^
 ```
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Spring](https://img.shields.io/badge/Spring-framework-brightgreen)](https://spring.io/)
+[![LinkedIn](https://img.shields.io/badge/Praveen-LinkedIn-blue)](https://in.linkedin.com/in/praveengandhi)
+[![Blog](https://img.shields.io/badge/TechIt-Easy-purple)](https://techiteasypolicy.blogspot.com/)
+
 ![project](project.png)
 
 ## Old school Spring applications
