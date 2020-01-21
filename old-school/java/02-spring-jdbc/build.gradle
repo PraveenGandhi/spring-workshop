@@ -1,0 +1,21 @@
+plugins {
+	id 'java'
+	id 'application'
+}
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+group = 'com.learning.spring.workshop'
+version = '1.0'
+applicationName = 'spring-jdbc'
+
+mainClassName = "com.learning.spring.workshop.SpringJDBCApplication"
+
+dependencies{
+	implementation 'org.springframework:spring-core:4.0.0.RELEASE'
+	implementation 'org.springframework:spring-context:4.0.0.RELEASE'
+
+	implementation 'org.springframework:spring-jdbc:4.0.0.RELEASE'
+	implementation 'com.h2database:h2:1.4.200'
+}

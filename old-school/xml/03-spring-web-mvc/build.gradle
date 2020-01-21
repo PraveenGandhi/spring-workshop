@@ -1,0 +1,22 @@
+plugins {
+	id 'java'
+	id 'war'
+	id "org.gretty" version "3.0.1"
+}
+repositories {
+	mavenLocal()
+	mavenCentral()
+	jcenter()
+}
+group = 'com.learning.spring.workshop'
+version = '1.0'
+archivesBaseName = 'spring-web-mvc-xml'
+
+dependencies{
+	implementation 'org.springframework:spring-core:4.0.0.RELEASE'
+	implementation 'org.springframework:spring-context:4.0.0.RELEASE'
+
+	implementation 'org.springframework:spring-web:4.0.0.RELEASE'
+	implementation 'org.springframework:spring-webmvc:4.0.0.RELEASE'
+	implementation 'javax.servlet:jstl:1.2'
+}

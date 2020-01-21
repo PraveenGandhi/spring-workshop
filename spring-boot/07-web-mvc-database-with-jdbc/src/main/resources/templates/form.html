@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Add new Student</title>
+<style>
+    .error{
+        color:red;
+    }
+</style>
+
+</head>
+<body>
+<div class="container">
+    <h1>Add New Student</h1>
+<form action="#" th:action="@{/students/save}" th:object="${student}" method="post">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" th:field="*{name}" /></td>
+            <td class="error" th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Name Error</td>
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td><input type="text" th:field="*{age}" /></td>
+            <td class="error" th:if="${#fields.hasErrors('age')}" th:errors="*{age}">Age Error</td>
+        </tr>
+        <tr>
+            <td><button class="btn btn-primary" type="submit">Submit</button></td>
+        </tr>
+    </table>
+</form>
+</div>
+</body>
+</html>

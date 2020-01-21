@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+group = 'com.learning.spring.workshop'
+version = '1.0'
+applicationName = 'hello-spring'
+
+mainClassName = "com.learning.spring.workshop.HelloSpringApplication"
+
+dependencies {
+    implementation 'org.springframework:spring-core:4.0.0.RELEASE'
+    implementation 'org.springframework:spring-context:4.0.0.RELEASE'
+}

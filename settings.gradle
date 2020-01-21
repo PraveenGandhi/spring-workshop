@@ -1,0 +1,20 @@
+rootProject.name = 'spring-workshop'
+
+
+include 'old-school:xml:01-hello-spring'
+include 'old-school:xml:02-spring-jdbc'
+include 'old-school:xml:03-spring-web-mvc'
+
+
+include 'old-school:java:01-hello-spring'
+include 'old-school:java:02-spring-jdbc'
+include 'old-school:java:03-spring-web-mvc'
+
+
+include 'spring-boot:01-hello-spring-boot'
+include 'spring-boot:02-spring-boot-jdbc'
+include 'spring-boot:03-web-mvc'
+include 'spring-boot:04-web-mvc-request-mapping'
+include 'spring-boot:05-web-mvc-form-submission'
+include 'spring-boot:06-web-mvc-form-validation'
+include 'spring-boot:07-web-mvc-database-with-jdbc'
